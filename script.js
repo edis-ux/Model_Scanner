@@ -7,7 +7,7 @@ let model;
         // Функция за зареждане на модела
         async function loadModel() {
             try {
-                model = await tf.loadLayersModel('https://raw.githubusercontent.com/edis-ux/Model_Scanner/refs/heads/main/model.json?token=GHSAT0AAAAAAC5QTCHHFZLM44YZVK42CRSCZ4LNQGA');
+                model = await tf.loadLayersModel('https://raw.githubusercontent.com/edis-ux/Model_Scanner/refs/heads/main/model.json');
                 console.log('Моделът е зареден!');
             } catch (error) {
                 console.error('Грешка при зареждане на модела:', error);
