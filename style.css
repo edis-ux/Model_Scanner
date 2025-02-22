@@ -32,7 +32,7 @@ button:hover {
 
         p {
             font-size: 18px;
-            color: #ffffff;
+            color: #333;
         }
 
 @media (max-width: 768px) {
